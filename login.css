@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#login_div {
+  height: 500px;
+  width: 30%;
+  border: 0px solid red;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+#form {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 25px;
+  margin-top: 50px;
+}
+#form input {
+  padding: 10px 0px 10px 0px;
+}
+#form input:nth-child(3) {
+  background-color: #1f80e0;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+}
+#login_div p {
+  margin-top: 50px;
+}
+#login_div a button {
+  margin-top: 20px;
+  padding: 10px 50px 10px 50px;
+  border: 0;
+  background-color: #1f80e0;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+#navbar {
+  border: 0px solid red;
+  height: 70px;
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  background-color: #0c111b;
+  border-radius: 5px;
+}
+#navbar > .left {
+  border: 0px solid green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+}
+#navbar > .right {
+  border: 0px solid green;
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.left a {
+  text-decoration: none;
+  color: #c4c6c9;
+}
+.left a:nth-child(7) {
+  color: #eb9e08;
+  font-weight: bold;
+}
+.left > i {
+  color: #c4c6c9;
+}
+.left > i:hover {
+  cursor: pointer;
+}
+.left {
+  font-size: 18px;
+}
+
+.right input {
+  border: none;
+  text-decoration-color: #c4c6c9;
+  border-bottom: 1px solid #c4c6c9;
+  padding-right: 70px;
+  font-size: medium;
+  color: #c4c6c9;
+}
+.right i {
+  color: #c4c6c9;
+}
+#search {
+  border: 0px;
+  background-color: #1f80e0;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+}
+#search:hover {
+  cursor: pointer;
+  background-color: #ff1515;
+}
+#btn1 {
+  border: 0px;
+  background-color: #1f80e0;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+}
+
+#btn2 {
+  border: 0;
+  color: #c4c6c9;
+}
+#btn1:hover {
+  cursor: pointer;
+}
+#btn2:hover {
+  cursor: pointer;
+}

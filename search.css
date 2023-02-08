@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #0c111b;
+}
+
+#carousel {
+  height: 450px;
+  width: 95%;
+  border: 0px solid red;
+  text-align: center;
+  margin: auto;
+}
+#carousel img {
+  width: 100%;
+  height: 100%;
+}
+
+#navbar {
+  border: 0px solid red;
+  height: 70px;
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+#navbar > .left {
+  border: 0px solid green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+}
+#navbar > .right {
+  border: 0px solid green;
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  align-items: center;
+}
+
+.left a {
+  text-decoration: none;
+  color: #c4c6c9;
+}
+.left a:nth-child(7) {
+  color: #eb9e08;
+  font-weight: bold;
+}
+.left > i {
+  color: #c4c6c9;
+}
+.left > i:hover {
+  cursor: pointer;
+}
+.left {
+  font-size: 18px;
+}
+
+.right input {
+  border: none;
+  text-decoration-color: #c4c6c9;
+  border-bottom: 1px solid #c4c6c9;
+  padding-right: 70px;
+  font-size: medium;
+  color: #c4c6c9;
+}
+.right i {
+  color: #c4c6c9;
+}
+#search {
+  border: 0px;
+  background-color: #1f80e0;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+}
+#search:hover {
+  cursor: pointer;
+  background-color: #ff1515;
+}
+#btn1 {
+  border: 0px;
+  background-color: #1f80e0;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+}
+
+#btn2 {
+  border: 0;
+  color: #c4c6c9;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+}
+#btn1:hover {
+  cursor: pointer;
+  background-color: #ff1515;
+}
+#btn2:hover {
+  cursor: pointer;
+  background-color: #ff1515;
+}
+
+#movies {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  text-align: center;
+  margin-top: 70px;
+  color: #c4c6c9;
+  gap: 20px;
+}
+
+h3 {
+  margin-top: 10px;
+}
+p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#loader {
+  display: none;
+  text-align: center;
+}
+
+#mns {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+#movie_name {
+  background-color: #c4c6c9;
+  padding: 10px 100px 10px 100px;
+  border-radius: 10px;
+  color: #0c111b;
+  font-size: large;
+  font-weight: bold;
+}
