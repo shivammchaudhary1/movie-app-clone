@@ -5,8 +5,9 @@ This project is an attempt to clone the popular streaming platform, Hotstar. The
 ## Features
 - Landing page with a grid of popular movies
 - Search functionality to search for movies by name
-- Sorting functionality to sort movies by different criteria (e.g. release date, rating)
+- Sorting functionality to sort movies by different criteria (rating)
 - Utilizes debouncing for the search functionality for a smoother user experience
+- Login/Signup using Local Storage (functionality only)
 
 ## Deployment
 The app is deployed at https://hotstar-movie-app-clone.netlify.app/. You can access the app and experience the features mentioned above.
